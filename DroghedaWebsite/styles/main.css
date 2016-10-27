@@ -1,0 +1,119 @@
+/* body */
+body {
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* body -> wrapper */
+body .wrapper {
+
+}
+/* end */
+
+/* end of body */
+
+/* header */
+header {
+    background-image: url("../images/coderdojobg.jpg");
+    background-size: cover;
+    height: 700px;
+}
+/* end */
+
+/* footer */
+footer {
+
+}
+/* end */
+
+/* nav */
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+    background: -moz-linear-gradient(black, transparent);
+}
+nav .wrapper {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* Todo - make farRight go to the very right*/
+nav .wrapper .farRight {
+    position: relative;
+    right: 0;
+    margin-left: 20px;
+}
+nav h1 {
+    color: white;
+    max-width: 350px;
+}
+/* end */
+
+/* navigation ul */
+.navigation {
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+}
+.navigation li {
+    color: white;
+    float: left;
+    margin-left: 10px;
+    height: 100%;
+    padding: 20px 5px;
+}
+.navigation li:hover {
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.navigation li a {
+    height: 100%;
+}
+/* end */
+
+/* a */
+a {
+    color: white;
+    text-decoration:none;
+
+}
+/* end */
+
+/* colors */
+/*
+    Guidlines can be found here:
+    https://material.google.com/style/color.html#color-color-palette
+*/
+.grey-hidden:hover {
+    background-color: #616161;
+}
+.red-hidden:hover {
+    background-color: #f44336;
+}
+.red {
+    background-color: #f44336;
+}
+.indigo-hidden:hover {
+    background-color: #3f51b5;
+}
+.deepPurple-hidden:hover {
+    background-color: #673ab7;
+}
+.pink-hidden:hover {
+    background-color: #e91e63;
+}
+.blue-hidden:hover {
+    background-color: #2196f3;
+}
+/* end */
